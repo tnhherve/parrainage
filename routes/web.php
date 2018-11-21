@@ -20,3 +20,8 @@ Route::get('/contact', [
 	'as' => 'contact',
 	'uses' => 'PagesController@contact'
 ]);
+
+Route::get('/addUser', [
+	'as' => 'addUser',
+	'uses' => 'PagesController@addUser'
+]);

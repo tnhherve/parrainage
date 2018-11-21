@@ -3,8 +3,8 @@ body {
 }
 
 .feather {
-  width: 16px;
-  height: 16px;
+  width: 18px;
+  height: 18px;
   vertical-align: text-bottom;
 }
 
@@ -14,7 +14,7 @@ body {
 
 .sidebar {
   position: fixed;
-  top: 15px;
+  top: 25px;
   bottom: 0;
   left: 0;
   z-index: 100; /* Behind the navbar */
@@ -77,15 +77,15 @@ body {
 .navbar-brand {
   padding-top: .75rem;
   padding-bottom: .75rem;
-  font-size: 1rem;
-  background-color: rgba(0, 0, 0, .25);
+  font-size: 1.5rem;
+  
   box-shadow: inset -1px 0 0 rgba(0, 0, 0, .25);
 }
 
 .navbar .form-control {
   padding: .75rem 1rem;
   border-width: 0;
-  border-radius: 0;
+  border-radius: 1;
 }
 
 .form-control-dark {
