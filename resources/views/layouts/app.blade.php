@@ -17,7 +17,7 @@
         
         <script src="/bootstrap/js/popper.min.js"></script>
         <script src="/bootstrap/js/bootstrap.min.js"></script>
-        <!-- <script src="/js/popper.js"></script> -->
+        <script src="/js/popper.js"></script>
         <script src="/bootstrap/icons/feather.js"></script>
         <script src="/bootstrap/icons/feather.min.js"></script>
         <script>

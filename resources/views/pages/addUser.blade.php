@@ -49,10 +49,8 @@
               </select>
           </div>
           <div class="form-group">
-            <div class="custom-file">
-              <input type="file" class="custom-file-input" id="image" name="image">
-              <label class="custom-file-label" for="customFile">Profil</label>
-            </div>
+            <label for="image">Profil</label>
+            <input type="file" class="form-control-file" id="image" name="image">
           </div>
           <div class="form-group">
             <button type="submit" class="btn btn-primary btn-lg btn-block">Envoyer&raquo;</button>

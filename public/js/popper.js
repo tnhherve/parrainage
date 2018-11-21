@@ -7,10 +7,10 @@ $(function(){
         placement: 'bottom',        
         template: 
         	'<div class="popover-inner">'+
-        	'<h3 class="popover-title">Example</h3>'+
+        	'<h5 class="popover-title">TNHervé</h5>'+
         	'<div class="popover-content">'+
-        	'<button type="button" class="btn btn-primary">Primary</button>'+
-			'<button type="button" class="btn btn-secondary">Secondary</button>'+
+        	'<a href="#" type="button" class="btn btn-primary btn-sm">Mon profil</a>'+
+			'<a href="#" type="button" class="btn btn-secondary btn-sm">Deconnxion</a>'+
         	'</div>',
         html: true,
         container: false,

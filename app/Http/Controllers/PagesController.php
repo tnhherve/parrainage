@@ -17,4 +17,12 @@ class PagesController extends Controller
     public function addUser(){
     	return view('pages.addUser');	
     }
+
+    public function parrainage(){
+    	return view('pages.parrainage');	
+    }
+
+    public function cycle(){
+    	return view('pages.cycle');	
+    }
 }

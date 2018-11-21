@@ -25,3 +25,13 @@ Route::get('/addUser', [
 	'as' => 'addUser',
 	'uses' => 'PagesController@addUser'
 ]);
+
+Route::get('/parrainage', [
+	'as' => 'parrainage',
+	'uses' => 'PagesController@parrainage'
+]);
+
+Route::get('/cycle', [
+	'as' => 'cycle',
+	'uses' => 'PagesController@cycle'
+]);
