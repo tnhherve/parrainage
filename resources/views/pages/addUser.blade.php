@@ -1,4 +1,4 @@
-@extends('layouts.app',['title'=>'Contact','etat'=>'active'])
+@extends('layoutss.app',['title'=>'Contact','etat'=>'active'])
 
 @section('content')
 

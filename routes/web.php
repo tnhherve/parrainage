@@ -13,7 +13,7 @@
 
 Route::get('/', [
 	'as' => 'home',
-	'uses' => 'PagesController@home'
+	'uses' => 'HomeController@index'
 ]);
 
 Route::get('/contact', [
@@ -35,3 +35,8 @@ Route::get('/cycle', [
 	'as' => 'cycle',
 	'uses' => 'PagesController@cycle'
 ]);
+
+
+Auth::routes();
+
+//Route::get('/', 'HomeController@index')->name('home');
