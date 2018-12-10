@@ -32,11 +32,23 @@
               <input type="number" class="form-control {{ $errors->has('email')?'is-invalid': '' }}" id="phone" name="phone" value="{{ old('email') }}">
                         {!! $errors->first('email', '<span class="invalid-feedback">:message</span>') !!}
            </div>
+           
            <div class="form-group">
-              <label for="email">Login</label>
-              <input type="login" class="form-control {{ $errors->has('email')?'is-invalid': '' }}" id="login" name="login" value="{{ old('email') }}">
-                        {!! $errors->first('email', '<span class="invalid-feedback">:message</span>') !!}
-           </div>
+            <label for="option">Cycle</label>
+              <select class="form-control" id="cycle" name="cycle">
+                <option value="cycle1">Cycle I</option>
+                <option value="cycle2">Cycle II</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+            <label for="option">Niveau</label>
+              <select class="form-control" id="niveau" name="niveau">
+                <option value="niveau1">Niveau I</option>
+                <option value="niveau2">Niveau II</option>
+              </select>
+            </div>
+
            <div class="form-group">
             <label for="option">Option</label>
               <select class="form-control" id="option" name="option">
@@ -44,8 +56,6 @@
                 <option value="CRYPTO">Cryptographie - SI</option>
                 <option value="RESEAU">Réseaux</option>
                 <option value="TELE">Télécommunication</option>
-                <option value="NIVEAU1">Niveau 1</option>
-                <option value="NIVEAU2">Niveau 2</option>
               </select>
           </div>
           <div class="form-group">
